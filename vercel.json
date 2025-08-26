@@ -3,19 +3,6 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "installCommand": "npm install",
-<<<<<<< HEAD
-=======
-  "devCommand": "npm run dev",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
->>>>>>> 9d4166a30e576ace22208eb8bb680b429c9ba0d9
   "routes": [
     {
       "src": "/(.*)",
